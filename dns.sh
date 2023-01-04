@@ -117,6 +117,7 @@ function dns_changer {
 				echo -e "$YELLOW""Creating a shortcut..."
 				sleep 4
 				cp dns.sh /usr/local/sbin
+				cp dns_list /usr/local/sbin
 				mv /usr/local/sbin/dns.sh /usr/local/sbin/dnschanger
 				chmod +x /usr/local/sbin/dnschanger;;
 				
